@@ -28,4 +28,26 @@ class CounterTest {
 
         assertEquals(expected, output);
     }
+
+    @DisplayName("When first value 10 and second value 5 then cycle in sum method must return 0")
+    @Test
+    void whenSumEvenStart2andFinish10Then30() {
+        short input1 = 2;
+        short input2 = 10;
+        int output = Counter.sumByEven(input1, input2);
+        short expected = 30;
+
+        assertEquals(expected, output);
+    }
+
+    @DisplayName("When first value 10 and second value 5 then cycle in sum method must return 0")
+    @Test
+    void whenSumEvenStartMinus2andFinish10Then30() {
+        short input1 = -2;
+        short input2 = 10;
+        int output = Counter.sumByEven(input1, input2);
+        short expected = 30;
+
+        assertEquals(expected, output);
+    }
 }
