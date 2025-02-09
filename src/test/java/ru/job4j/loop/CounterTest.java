@@ -46,7 +46,7 @@ class CounterTest {
         short input1 = -2;
         short input2 = 10;
         int output = Counter.sumByEven(input1, input2);
-        short expected = 30;
+        short expected = 28;
 
         assertEquals(expected, output);
     }
