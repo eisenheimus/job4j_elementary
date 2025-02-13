@@ -28,6 +28,4 @@ public class SortSelectedTest {
         int[] expected = new int[] {0, 1, 2, 4, 10};
         assertThat(result).containsExactly(expected);
     }
-
-//    2, 5, 120, 7, 9, 12, 0, -2})));
 }
